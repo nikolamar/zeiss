@@ -1,0 +1,94 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# editorconfig.org
+
+root = true
+
+[*]
+# Change these settings to your own preference
+indent_style = space
+indent_size = 2
+
+# We recommend you to keep these unchanged
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.feature]
+indent_style = space
+indent_size = 2
+
+[skaffold.yaml]
+indent_size = 2
+
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[*.ts]
+indent_style = space
+indent_size = 2
+
+[*.tsx]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.php]
+indent_style = space
+indent_size = 2
+
+[*.sh]
+indent_style = space
+indent_size = 2
+
+[*.tf]
+indent_style = space
+indent_size = 2
+
+[*.xml]
+indent_style = space
+indent_size = 2
+
+[*.yaml]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
+
+[Dockerfile]
+indent_style = space
+indent_size = 2
+
+[phpunit.xml{,.dist}]
+indent_style = space
+indent_size = 2
+
+[behat.yml]
+indent_style = space
+indent_size = 2
+
+[composer.json]
+indent_style = space
+indent_size = 2
+
+[.gitmodules]
+indent_style = space
+
+[.php_cs]
+indent_style = space
+indent_size = 2
+
+[phpstan.neon{,.dist}]
+indent_style = space
+indent_size = 2
+
+[Makefile]
+indent_style = space
+indent_size = 2
